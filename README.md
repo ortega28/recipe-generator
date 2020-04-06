@@ -105,7 +105,9 @@ https://imgur.com/a/NgbclGt
 
 # Priority Matrix: 
 
-https://app.diagrams.net/#G1eahL1loI7Yy73Yxicmc9yj5gFxoKo2cn
+<!-- https://app.diagrams.net/#G1eahL1loI7Yy73Yxicmc9yj5gFxoKo2cn -->
+
+https://imgur.com/a/nzGlxCZ
 
 # Timeframes: 
 
