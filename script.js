@@ -43,12 +43,36 @@ let API_KEY;
 
 const input = document.getElementById("search-ingredient");
 const searchButton = document.getElementById("search-button");
+const addRecipeToDom = document.querySelector('.rendered-data');
 
 async function getRecipeData(ingredient) {
     let recipeList = await axios.get(`${DOMAIN}${ingredient}`);
+    let i = 0;
     console.log(recipeList.data);
+    //console.log(recipeList.data.meals[i]);
+
+    for (let i = 0; i < recipeList.data.meals.length; i++) {
+        // console.log(recipeList.data.meals[i]);
+        console.log(recipeList.data.meals[i].strMeal);
+        //console.log(recipeList.data.meals[i].idMeal);
+        console.log(`${DOMAIN}` + (recipeList.data.meals[i].idMeal));
+    }
+
+
+    // recipeList.forEach(i => {
+
+    //     const div = document.createElement('div');
+    //     div.style.border = "2px solid black";
+    //     addRecipeToDom.append(div);
+
+
+    // });
+
 
     // for (let i = 0; i < 5; i++) {
+    //     // let newRecipe = document.createElement("p");
+    //     // newRecipe.innerHTML = 
+
     //     document.querySelector(".rendered-list").appendChild()
     // }
 }
