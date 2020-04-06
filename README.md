@@ -115,11 +115,11 @@ https://app.diagrams.net/#G1eahL1loI7Yy73Yxicmc9yj5gFxoKo2cn
 | Project Prompt    |     M     |    3hrs       |    2.5hrs     |     2.5hrs    | 
 | HTML              |     H     |    4hrs       |               |               |
 | Design            |     M     |    2hrs       |               |               |
-| Psuedocode        |     M     |    1.5hrs     |               |               |
+| Psuedocode        |     M     |    2hrs     |               |               |
 | CSS               |     H     |    5hrs       |               |               |
 | JS                |     H     |    4hrs       |               |               |
 | Working with API	|   H	    |    4hrs       |               |               |
 | Manipulate DOM    |     H     |    4hrs       |               |               |
 | Testing           |     H     |    5hrs       |               |               |
 | post MVP          |     L     |    ~~~~       |               |               |
-| Total	            |   H	    |    32.5hrs    |	 5hrs       |     5hrs      |
+| Total	            |   H	    |    33hrs    |	 5hrs       |     5hrs      |
