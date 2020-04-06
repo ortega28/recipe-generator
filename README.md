@@ -70,7 +70,9 @@ https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
 # Wireframes: 
 
 ## Desktop
-https://app.diagrams.net/#G1cXtZlDyh2oefCTbe6kmqAu9uKeNs5DSI
+<!-- https://app.diagrams.net/#G1cXtZlDyh2oefCTbe6kmqAu9uKeNs5DSI -->
+
+https://imgur.com/a/zafkXao
 
 ## Mobile
 https://wireframe.cc/pro/edit/330765
