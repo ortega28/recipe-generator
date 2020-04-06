@@ -91,14 +91,15 @@ https://wireframe.cc/pro/edit/330765
 3) Add picture transition effects / maybe change main image to change to recipe when recipe is clicked
 
 # Goals: 
-Day	        Deliverable	                                                Status
-April 3rd	Project Prompt	                                            Complete
-April 4/5th	Wireframes / Priority Matrix / Functional Components	    Incomplete
-April 6th	Core Application Structure (HTML, CSS)	                    Incomplete
-April 7th	Pseudocode / actual code (JS)                               Incomplete
-April 8th	Initial Clickable Model	 (retrieve from API/DOM)            Incomplete
-April 9th	MVP	/ Testing                                               Incomplete
-April 10th	Present	                                                    Incomplete
+|Day	       | Deliverable	                                        | Status     |
+|--------------|:------------------------------------------------------:| ----------:|
+|April 3rd	   | Project Prompt	                                        | Complete   |
+|April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Incomplete |
+|April 6th	   | Core Application Structure (HTML, CSS)	                | Incomplete |
+|April 7th	   | Pseudocode / actual code (JS)                          | Incomplete |
+|April 8th	   | Initial Clickable Model	 (retrieve from API/DOM)    | Incomplete |
+|April 9th	   | MVP / Testing                                          | Incomplete |
+|April 10th	   | Present	                                            | Incomplete |
 
 # Priority Matrix: 
 
