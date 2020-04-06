@@ -74,8 +74,44 @@ https://wireframe.cc/pro/edit/330765
 
 MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 
+1) Allow user to input into search
+2) Find external API and use to find recipes
+3) Render data on page below search
+
 
 Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+
+1) Have a "favorite" button or star image and saves the favorites in local storage
+2) Add hover effects on recipes
+3) Add picture transition effects / maybe change main image to change to recipe when recipe is clicked
+
 Goals: What you plan to accomplish for each day of the project week.
+Day	Deliverable	Status
+April 3rd	Project Prompt	                                            Complete
+April 4/5th	Wireframes / Priority Matrix / Functional Components	    Incomplete
+April 6th	Core Application Structure (HTML, CSS)	                    Incomplete
+April 7th	Pseudocode / actual code (JS)                               Incomplete
+April 8th	Initial Clickable Model	 (retrieve from API/DOM)            Incomplete
+April 9th	MVP	/ Testing                                               Incomplete
+April 10th	Present	                                                    Incomplete
+
 Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority.
+
+https://app.diagrams.net/#G1eahL1loI7Yy73Yxicmc9yj5gFxoKo2cn
+
 Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+
+Component	        Priority	Estimated       Time	    Time Invested	    Actual Time
+Project Prompt         M           3hrs         2.5hrs          2.5hrs              2.5hrs
+HTML                   H           4hrs
+Design                 M           2hrs
+Psuedocode             M           1.5hrs
+CSS                    H           5hrs
+JS                     H           4hrs
+Working with API	   H	       4hrs
+Manipulate DOM         H           4hrs
+Testing                H           5hrs
+post MVP               L           ~~~~       
+	        
+
+Total	               H	       32.5hrs	        5hrs	        5hrs
