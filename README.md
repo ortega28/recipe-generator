@@ -75,9 +75,9 @@ https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
 https://imgur.com/a/zafkXao
 
 ## Mobile
-https://wireframe.cc/pro/edit/330765
+<!-- https://wireframe.cc/pro/edit/330765 -->
 
-
+https://imgur.com/a/NgbclGt
 
 # MVP: 
 
