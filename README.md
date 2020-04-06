@@ -22,6 +22,7 @@ https://www.themealdb.com/api/json/v1/1/filter.php?i=pork
 
 https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
 
+```
 {
     "meals": [
         {
@@ -66,6 +67,8 @@ https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
         }
     ]
 }
+```
+
 
 # Wireframes: 
 
@@ -107,17 +110,16 @@ https://app.diagrams.net/#G1eahL1loI7Yy73Yxicmc9yj5gFxoKo2cn
 
 # Timeframes: 
 
-Component	        Priority	Estimated       Time	    Time Invested	    Actual Time
-Project Prompt         M           3hrs         2.5hrs          2.5hrs              2.5hrs
-HTML                   H           4hrs
-Design                 M           2hrs
-Psuedocode             M           1.5hrs
-CSS                    H           5hrs
-JS                     H           4hrs
-Working with API	   H	       4hrs
-Manipulate DOM         H           4hrs
-Testing                H           5hrs
-post MVP               L           ~~~~       
-	        
-
-Total	               H	       32.5hrs	        5hrs	        5hrs
+| Component	        | Priority	| Estimated Time| Time Invested |  Actual Time  |
+|-------------------|:---------:|:-------------:|:-------------:|--------------:|
+| Project Prompt    |     M     |    3hrs       |    2.5hrs     |     2.5hrs    | 
+| HTML              |     H     |    4hrs       |               |               |
+| Design            |     M     |    2hrs       |               |               |
+| Psuedocode        |     M     |    1.5hrs     |               |               |
+| CSS               |     H     |    5hrs       |               |               |
+| JS                |     H     |    4hrs       |               |               |
+| Working with API	|   H	    |    4hrs       |               |               |
+| Manipulate DOM    |     H     |    4hrs       |               |               |
+| Testing           |     H     |    5hrs       |               |               |
+| post MVP          |     L     |    ~~~~       |               |               |
+| Total	            |   H	    |    32.5hrs    |	 5hrs       |     5hrs      |
