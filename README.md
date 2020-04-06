@@ -72,8 +72,6 @@ https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
 ## Desktop
 https://app.diagrams.net/#G1cXtZlDyh2oefCTbe6kmqAu9uKeNs5DSI
 
-![alt text](https://app.diagrams.net/#G1cXtZlDyh2oefCTbe6kmqAu9uKeNs5DSI "Logo Title Text 1")
-
 ## Mobile
 https://wireframe.cc/pro/edit/330765
 
