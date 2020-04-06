@@ -1,0 +1,55 @@
+header {
+    padding: 12px 0 15px 0;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #ABE5F6;
+}
+
+img {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  /* p {
+      text-align: center;
+      border: 1px solid black;
+      padding: 1em;
+  } */
+
+h3 {
+    text-align: center;
+      border: 1px solid black;
+      padding: 1em;
+}
+
+  div {
+      text-align: center;
+  }
+
+  .search-ingredient{
+    top: 355px;
+    left: 575px;
+    height: 30px;
+    width: 160px;
+    font-size: 16px;
+  }
+
+  .search-button {
+    top: 355px;
+    left: 575px;
+    height: 36px;
+    width: 50px;
+  }
