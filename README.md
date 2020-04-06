@@ -20,6 +20,8 @@ https://www.themealdb.com/api.php
 
 https://www.themealdb.com/api/json/v1/1/filter.php?i=pork
 
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52995
+
 {
     "meals": [
         {
