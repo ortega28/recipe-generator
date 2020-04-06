@@ -39,7 +39,7 @@ h3 {
       text-align: center;
   }
 
-  .search-ingredient{
+  #search-ingredient{
     top: 355px;
     left: 575px;
     height: 30px;
@@ -47,7 +47,7 @@ h3 {
     font-size: 16px;
   }
 
-  .search-button {
+  #search-button {
     top: 355px;
     left: 575px;
     height: 36px;

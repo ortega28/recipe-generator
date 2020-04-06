@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="device-width" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script defer src="app.js" charset="utf-8"></script>
+    <script defer src="script.js" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <title>Recipe Generator</title>
 </head>
@@ -19,8 +19,15 @@
     <h3>Choose an ingredient to find a recipe</h3>
     <div>
         <!-- <label for="search-button">Enter one ingredient</label> -->
-        <input type="text" class="search-ingredient" placeholder="...recipes waiting">
-        <button type="submit" class="search-button">Search</button>
+        <input type="text" id="search-ingredient" placeholder="...recipes waiting">
+        <button type="submit" id="search-button">Search</button>
+    </div>
+    <div class="rendered-data">
+        <!-- <ul>
+            <li>
+
+            </li>
+        </ul> -->
     </div>
 </body>
 <footer>
