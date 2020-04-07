@@ -1,6 +1,6 @@
 # App Title: 
 
-Recipe Generator
+Recip-Ease Generator
 
 # App Description: 
 
@@ -96,7 +96,7 @@ https://imgur.com/a/NgbclGt
 |Day	       | Deliverable	                                        | Status     |
 |--------------|:------------------------------------------------------:| ----------:|
 |April 3rd	   | Project Prompt	                                        | Complete   |
-|April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Incomplete |
+|April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Complete   |
 |April 6th	   | Core Application Structure (HTML, CSS)	                | Incomplete |
 |April 7th	   | Pseudocode / actual code (JS)                          | Incomplete |
 |April 8th	   | Initial Clickable Model	 (retrieve from API/DOM)    | Incomplete |

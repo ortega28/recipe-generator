@@ -1,6 +1,6 @@
 header {
     padding: 12px 0 15px 0;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #000000;
 }
 
 h1 {
@@ -33,7 +33,9 @@ img {
 
 h3 {
     text-align: center;
-      border: 1px solid black;
+      /* border: 1px solid black; */
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
       padding: 1em;
 }
 
