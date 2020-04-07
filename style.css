@@ -21,6 +21,8 @@ img {
     border: 2px solid black;
     margin-top: 35px;
     margin-bottom: 35px;
+    min-width: 370px;
+
   }
 
   /* p {
