@@ -21,22 +21,22 @@ img {
     border: 2px solid black;
     margin-top: 35px;
     margin-bottom: 35px;
-    min-width: 370px;
+    min-width: 370px; 
 
   }
 
-  /* p {
+   p {
       text-align: center;
-      border: 1px solid black;
-      padding: 1em;
-  } */
+      color: black;
+      text-align: left;
+  } 
 
 h3 {
     text-align: center;
-      /* border: 1px solid black; */
       border-top: 1px solid black;
       border-bottom: 1px solid black;
       padding: 1em;
+      color: black;
 }
 
   div {
@@ -57,3 +57,14 @@ h3 {
     height: 36px;
     width: 50px;
   }
+
+  @media only screen and (max-width: 400px) {
+    img{
+      min-width: 400px;
+      
+    }
+
+    html, header, body, footer {
+      min-width: 400px;
+    }
+  } 

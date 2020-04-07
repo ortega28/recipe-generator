@@ -9,6 +9,7 @@ const addRecipeToDom = document.getElementsByClassName('rendered-data');
 
 
 async function getRecipeData(ingredient) {
+    //document.getElementsByClassName('rendered-data').innerHTML = "";
     let recipeList = await axios.get(`${DOMAIN}${ingredient}`);
 
     console.log(recipeList.data);
@@ -21,7 +22,6 @@ async function getRecipeData(ingredient) {
         //console.log(recipeListText.data.meals[0].strInstructions);
 
         let div = document.createElement('div');
-        //div.style.border = "2px solid black";
         div.style.backgroundColor = "#ABE5F6";
         div.style.border = "2px solid black";
         div.style.color = "white";
@@ -29,27 +29,15 @@ async function getRecipeData(ingredient) {
         addRecipeToDom[0].append(div)
 
         let recipeName = recipeList.data.meals[i].strMeal;
-        let showRecipeName = document.createElement('h2');
+        let showRecipeName = document.createElement('h3');
         showRecipeName.innerHTML = `Recipe Name: ${recipeName}`;
         div.append(showRecipeName);
 
+        let recipeInstructions = recipeListText.data.meals[0].strInstructions;
+        let showRecipeInstructions = document.createElement('p');
+        showRecipeInstructions.innerHTML = `${recipeInstructions}`;
+        div.append(showRecipeInstructions);
 
-
-
-
-
-
-
-        // const div = document.createElement('div');
-        // div.style.border = "2px solid black";
-        // document.getElementsByClassName('.rendered-data').append(div);
-        //document.getElementsByClassName('.rendered-data').appendChild(div);
-
-        // let recipeName = recipeList.data.meals[i].strMeal;
-        // console.log(`${recipeName}-------------`);
-        // let showRecipe = document.createElement('h2');
-        // showRecipe.innerHTML = `Recipe: ${recipeName}`
-        // div.append(showRecipe)
     }
 }
 
@@ -57,6 +45,12 @@ function searchAPI() {
     let recipe = input.value;
     getRecipeData(recipe);
 }
+
+// function clearDiv() {
+//     //document.getElementById(elementID).innerHTML = "";
+//     document.getElementsByClassName('rendered-data').innerHTML = "";
+// }
+
 
 searchButton.addEventListener("click", searchAPI);
 
