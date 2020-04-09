@@ -33,6 +33,12 @@ async function getRecipeData(ingredient) {
         showRecipeName.innerHTML = `Recipe Name: ${recipeName}`;
         div.append(showRecipeName);
 
+        let myImage = new Image(300, 300);
+        //myImage.src = 'https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg';
+        let recipeImage = recipeList.data.meals[i].strMealThumb;
+        myImage.src = recipeImage;
+        div.appendChild(myImage);
+
         let recipeInstructions = recipeListText.data.meals[0].strInstructions;
         let showRecipeInstructions = document.createElement('p');
         showRecipeInstructions.innerHTML = `${recipeInstructions}`;
