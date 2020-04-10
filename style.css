@@ -73,7 +73,7 @@ h3 {
 
     p {
       width: 80%;
-      min-width: 500px;
+      /* min-width: 500px; */
     }
 
     body {
