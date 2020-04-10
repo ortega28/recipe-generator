@@ -67,6 +67,21 @@ h3 {
       
     }
 
+    h3{
+      min-width: 400px;
+    }
+
+    p {
+      min-width: 400px;
+    }
+
+    body {
+      min-width: 400px;
+    }
+
+    header {
+      min-width: 400px;
+    }
     /* html, header, body, footer {
       min-width: 400px;
     } */

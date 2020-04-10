@@ -91,12 +91,13 @@ https://imgur.com/a/NgbclGt
 1) Have a "favorite" button or star image and saves the favorites in local storage
 2) Add hover effects on recipes
 3) Add picture transition effects / maybe change main image to change to recipe when recipe is clicked
+4) Handle exception when the user inputs a value that does not exist
 
 # Goals: 
 |Day	       | Deliverable	                                        | Status     |
 |--------------|:------------------------------------------------------:| ----------:|
-|April 3rd	   | Project Prompt	                                        | Complete   |
-|April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Complete   |
+|April 3rd	   | Project Prompt	                                        | Complete |
+|April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Complete |
 |April 6th	   | Core Application Structure (HTML, CSS)	                | Complete |
 |April 7th	   | Pseudocode / actual code (JS)                          | Complete |
 |April 8th	   | Initial Clickable Model	 (retrieve from API/DOM)    | Complete |
