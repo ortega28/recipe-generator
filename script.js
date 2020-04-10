@@ -25,7 +25,7 @@ async function getRecipeData(ingredient) {
         let div = document.createElement('div');
         div.style.backgroundColor = "#ABE5F6";
         div.style.border = "2px solid black";
-        div.style.color = "white";
+        //div.style.color = "white";
         //document.getElementsByClassName("rendered-data")[0].append(div);
         addRecipeToDom[0].append(div)
 
