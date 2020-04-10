@@ -9,7 +9,8 @@ const addRecipeToDom = document.getElementsByClassName('rendered-data');
 
 
 async function getRecipeData(ingredient) {
-    //document.getElementsByClassName('rendered-data').innerHTML = "";
+    //document.getElementsByClassName("rendered-data").innerHTML = "";
+    document.querySelector(".rendered-data").innerHTML = "";
     let recipeList = await axios.get(`${DOMAIN}${ingredient}`);
 
     console.log(recipeList.data);
@@ -30,7 +31,7 @@ async function getRecipeData(ingredient) {
 
         let recipeName = recipeList.data.meals[i].strMeal;
         let showRecipeName = document.createElement('h3');
-        showRecipeName.innerHTML = `Recipe Name: ${recipeName}`;
+        showRecipeName.innerHTML = `${recipeName}`;
         div.append(showRecipeName);
 
         let myImage = new Image(300, 300);
@@ -52,10 +53,6 @@ function searchAPI() {
     getRecipeData(recipe);
 }
 
-// function clearDiv() {
-//     //document.getElementById(elementID).innerHTML = "";
-//     document.getElementsByClassName('rendered-data').innerHTML = "";
-// }
 
 
 searchButton.addEventListener("click", searchAPI);

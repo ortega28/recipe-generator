@@ -97,11 +97,11 @@ https://imgur.com/a/NgbclGt
 |--------------|:------------------------------------------------------:| ----------:|
 |April 3rd	   | Project Prompt	                                        | Complete   |
 |April 4/5th   | Wireframes / Priority Matrix / Functional Components	| Complete   |
-|April 6th	   | Core Application Structure (HTML, CSS)	                | Incomplete |
-|April 7th	   | Pseudocode / actual code (JS)                          | Incomplete |
-|April 8th	   | Initial Clickable Model	 (retrieve from API/DOM)    | Incomplete |
-|April 9th	   | MVP / Testing                                          | Incomplete |
-|April 10th	   | Present	                                            | Incomplete |
+|April 6th	   | Core Application Structure (HTML, CSS)	                | Complete |
+|April 7th	   | Pseudocode / actual code (JS)                          | Complete |
+|April 8th	   | Initial Clickable Model	 (retrieve from API/DOM)    | Complete |
+|April 9th	   | MVP / Testing                                          | Complete |
+|April 10th	   | Present	                                            | Complete |
 
 # Priority Matrix: 
 
@@ -114,13 +114,22 @@ https://imgur.com/a/nzGlxCZ
 | Component	        | Priority	| Estimated Time| Time Invested |  Actual Time  |
 |-------------------|:---------:|:-------------:|:-------------:|--------------:|
 | Project Prompt    |     M     |    3hrs       |    2.5hrs     |     2.5hrs    | 
-| HTML              |     H     |    4hrs       |               |               |
-| Design            |     M     |    2hrs       |               |               |
-| Psuedocode        |     M     |    2hrs       |               |               |
-| CSS               |     H     |    5hrs       |               |               |
-| JS                |     H     |    4hrs       |               |               |
-| Working with API	|     H	    |    4hrs       |               |               |
-| Manipulate DOM    |     H     |    4hrs       |               |               |
-| Testing           |     H     |    5hrs       |               |               |
-| post MVP          |     L     |    ~~~~       |               |               |
-| Total	            |     H	    |    33hrs      |	            |               |
+| HTML              |     H     |    4hrs       |    2hrs       |     2hrs      |
+| Design            |     M     |    2hrs       |    2hrs       |     2hrs      |
+| Psuedocode        |     M     |    2hrs       |    3hrs       |     3hrs      |
+| CSS               |     H     |    5hrs       |    5hrs       |     5hrs      |
+| JS                |     H     |    4hrs       |    6hrs       |     6hrs      |
+| Working with API	|     H	    |    4hrs       |    4hrs       |     4hrs      |
+| Manipulate DOM    |     H     |    4hrs       |    5hrs       |     5hrs      |
+| Testing           |     H     |    5hrs       |    5hrs       |     5hrs      |
+| post MVP          |     L     |    ~~~~       |    ~~~~       |     ~~~~      |
+| Total	            |     H	    |    33hrs      |	 34.5       |     34.5      |
+
+# Code Snippet
+```
+let myImage = new Image(300, 300);
+        
+let recipeImage = recipeList.data.meals[i].strMealThumb;
+myImage.src = recipeImage;
+div.appendChild(myImage);
+```
