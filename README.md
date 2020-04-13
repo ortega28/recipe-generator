@@ -2,6 +2,8 @@
 
 Recip-Ease Generator
 
+file:///Users/alexortega/GA/project1/recipe-generator/index.html
+
 # App Description: 
 
 The user will have the option to input an ingredient of choice and the app will pull from an API of recipes and select then display all the recipes with that ingreident in it.
